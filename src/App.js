@@ -1,20 +1,15 @@
 
+import React from 'react';
+import Navbar from './components/NavBar';
 import './App.css';
+import { ItemListContainer } from './components/ItemListContainer';
 
 function App() {
   return (
-    <header>
-    <ul className="navbar">
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Contactanos</li>
-        
-            <li>Registrarse</li>
-            <li>Login</li>
-        
-    </ul>
-    
-</header>
+   <>
+   <Navbar/>
+   <ItemListContainer/>
+   </>
   );
 }
 
